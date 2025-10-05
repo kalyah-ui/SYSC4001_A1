@@ -31,32 +31,37 @@ int main(int argc, char** argv) {
             auto [activity, duration_intr] = parse_trace(trace);
 
             /******************ADD YOUR SIMULATION CODE HERE*************************/
-            if (activity == "END_IO") {
+        if (activity == "END_IO") {
             int device_number = duration_intr;
             int duration = delays[device_number];
             std::string isr_address = vectors[device_number];
-
-            num_activities = ceil(duration / 40);
 
             execution += std::to_string(time) + ", 1, switch to kernel mode\n";
             execution += std::to_string(time+1) + ", 10, context saved\n";
             execution += std::to_string(time+11) + ", 1, find vector " + std::to_string(device_number+1) 
             + " in memory position " + isr_address + "\n";
-            execution += std::to_string(time+12) + ", 1, obtain ISR adddress\n";
+            execution += std::to_string(time+12) + ", 1, obtain ISR address\n";
             execution += std::to_string(time+13) + ", 24, call device driver\n";
 
-            for (int i = 0; i < num_activities; i++) {
-                execution += std::to_string(time+13 + i*40) + ", 40, ISR activity " 
-                + std::to_string(i+1) + " with device number: " + std::to_string(device_number + 1) + "\n";
+            int remaining = duration;
+            int current_time = time + 13;
+            int activity_num = 1;
+
+            while (remaining > 0) {
+                int block = std::min(40, remaining);
+                execution += std::to_string(current_time) + ", " + std::to_string(block)
+                            + ", ISR activity " + std::to_string(activity_num)
+                            + " with device number: " + std::to_string(device_number + 1) + "\n";
+                current_time += block;
+                remaining -= block;
+                activity_num++;
             }
 
-            execution += std::to_string(time+13 + num_activities*40) + ", 1, IRET\n";
-            execution += std::to_string(time+13 + num_activities*40 + 1) + ", " + std::to_string(duration)
-            + ", end of I/O " +std::to_string(device_number + 1) + ": interrupt\n";
-        }
-        else {
-            execution += std::to_string(time) + ", " + std::to_string(duration_intr) + ", " + activity + "\n";
-            time += duration_intr;
+            execution += std::to_string(current_time) + ", 1, IRET\n";
+            execution += std::to_string(current_time + 1) + ", " + std::to_string(duration)
+                        + ", end of I/O " + std::to_string(device_number + 1) + ": interrupt\n";
+
+            time = current_time + duration;
         }
         /************************************************************************/
 
