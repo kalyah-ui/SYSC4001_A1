@@ -1,0 +1,349 @@
+0, 1, switch to kernel mode
+1, 10, context saved
+11, 1, find vector 7 in memory position 0X0639
+12, 1, obtain ISR address
+13, 24, call device driver
+13, 120, ISR activity 1 with device number: 7
+133, 120, ISR activity 2 with device number: 7
+253, 25, ISR activity 3 with device number: 7
+278, 1, IRET
+279, 265, end of I/O 7: interrupt
+543, 1, switch to kernel mode
+544, 10, context saved
+554, 1, find vector 14 in memory position 0X06C7
+555, 1, obtain ISR address
+556, 24, call device driver
+556, 120, ISR activity 1 with device number: 14
+676, 120, ISR activity 2 with device number: 14
+796, 120, ISR activity 3 with device number: 14
+916, 120, ISR activity 4 with device number: 14
+1036, 120, ISR activity 5 with device number: 14
+1156, 36, ISR activity 6 with device number: 14
+1192, 1, IRET
+1193, 636, end of I/O 14: interrupt
+1828, 1, switch to kernel mode
+1829, 10, context saved
+1839, 1, find vector 9 in memory position 0X06EF
+1840, 1, obtain ISR address
+1841, 24, call device driver
+1841, 120, ISR activity 1 with device number: 9
+1961, 120, ISR activity 2 with device number: 9
+2081, 120, ISR activity 3 with device number: 9
+2201, 120, ISR activity 4 with device number: 9
+2321, 120, ISR activity 5 with device number: 9
+2441, 120, ISR activity 6 with device number: 9
+2561, 120, ISR activity 7 with device number: 9
+2681, 120, ISR activity 8 with device number: 9
+2801, 40, ISR activity 9 with device number: 9
+2841, 1, IRET
+2842, 1000, end of I/O 9: interrupt
+3841, 1, switch to kernel mode
+3842, 10, context saved
+3852, 1, find vector 5 in memory position 0X0292
+3853, 1, obtain ISR address
+3854, 24, call device driver
+3854, 120, ISR activity 1 with device number: 5
+3974, 120, ISR activity 2 with device number: 5
+4094, 10, ISR activity 3 with device number: 5
+4104, 1, IRET
+4105, 250, end of I/O 5: interrupt
+4354, 1, switch to kernel mode
+4355, 10, context saved
+4365, 1, find vector 19 in memory position 0X060A
+4366, 1, obtain ISR address
+4367, 24, call device driver
+4367, 120, ISR activity 1 with device number: 19
+4487, 3, ISR activity 2 with device number: 19
+4490, 1, IRET
+4491, 123, end of I/O 19: interrupt
+4613, 1, switch to kernel mode
+4614, 10, context saved
+4624, 1, find vector 13 in memory position 0X03B9
+4625, 1, obtain ISR address
+4626, 24, call device driver
+4626, 120, ISR activity 1 with device number: 13
+4746, 25, ISR activity 2 with device number: 13
+4771, 1, IRET
+4772, 145, end of I/O 13: interrupt
+4916, 1, switch to kernel mode
+4917, 10, context saved
+4927, 1, find vector 16 in memory position 0X0584
+4928, 1, obtain ISR address
+4929, 24, call device driver
+4929, 68, ISR activity 1 with device number: 16
+4997, 1, IRET
+4998, 68, end of I/O 16: interrupt
+5065, 1, switch to kernel mode
+5066, 10, context saved
+5076, 1, find vector 12 in memory position 0X01F8
+5077, 1, obtain ISR address
+5078, 24, call device driver
+5078, 120, ISR activity 1 with device number: 12
+5198, 120, ISR activity 2 with device number: 12
+5318, 120, ISR activity 3 with device number: 12
+5438, 120, ISR activity 4 with device number: 12
+5558, 43, ISR activity 5 with device number: 12
+5601, 1, IRET
+5602, 523, end of I/O 12: interrupt
+6124, 1, switch to kernel mode
+6125, 10, context saved
+6135, 1, find vector 9 in memory position 0X06EF
+6136, 1, obtain ISR address
+6137, 24, call device driver
+6137, 120, ISR activity 1 with device number: 9
+6257, 120, ISR activity 2 with device number: 9
+6377, 120, ISR activity 3 with device number: 9
+6497, 120, ISR activity 4 with device number: 9
+6617, 120, ISR activity 5 with device number: 9
+6737, 120, ISR activity 6 with device number: 9
+6857, 120, ISR activity 7 with device number: 9
+6977, 120, ISR activity 8 with device number: 9
+7097, 40, ISR activity 9 with device number: 9
+7137, 1, IRET
+7138, 1000, end of I/O 9: interrupt
+8137, 1, switch to kernel mode
+8138, 10, context saved
+8148, 1, find vector 14 in memory position 0X06C7
+8149, 1, obtain ISR address
+8150, 24, call device driver
+8150, 120, ISR activity 1 with device number: 14
+8270, 120, ISR activity 2 with device number: 14
+8390, 120, ISR activity 3 with device number: 14
+8510, 120, ISR activity 4 with device number: 14
+8630, 120, ISR activity 5 with device number: 14
+8750, 36, ISR activity 6 with device number: 14
+8786, 1, IRET
+8787, 636, end of I/O 14: interrupt
+9422, 1, switch to kernel mode
+9423, 10, context saved
+9433, 1, find vector 20 in memory position 0X0765
+9434, 1, obtain ISR address
+9435, 24, call device driver
+9435, 120, ISR activity 1 with device number: 20
+9555, 120, ISR activity 2 with device number: 20
+9675, 120, ISR activity 3 with device number: 20
+9795, 120, ISR activity 4 with device number: 20
+9915, 120, ISR activity 5 with device number: 20
+10035, 52, ISR activity 6 with device number: 20
+10087, 1, IRET
+10088, 652, end of I/O 20: interrupt
+10739, 1, switch to kernel mode
+10740, 10, context saved
+10750, 1, find vector 10 in memory position 0X036C
+10751, 1, obtain ISR address
+10752, 24, call device driver
+10752, 120, ISR activity 1 with device number: 10
+10872, 36, ISR activity 2 with device number: 10
+10908, 1, IRET
+10909, 156, end of I/O 10: interrupt
+11064, 1, switch to kernel mode
+11065, 10, context saved
+11075, 1, find vector 4 in memory position 0X042B
+11076, 1, obtain ISR address
+11077, 24, call device driver
+11077, 120, ISR activity 1 with device number: 4
+11197, 120, ISR activity 2 with device number: 4
+11317, 60, ISR activity 3 with device number: 4
+11377, 1, IRET
+11378, 300, end of I/O 4: interrupt
+11677, 1, switch to kernel mode
+11678, 10, context saved
+11688, 1, find vector 12 in memory position 0X01F8
+11689, 1, obtain ISR address
+11690, 24, call device driver
+11690, 120, ISR activity 1 with device number: 12
+11810, 120, ISR activity 2 with device number: 12
+11930, 120, ISR activity 3 with device number: 12
+12050, 120, ISR activity 4 with device number: 12
+12170, 43, ISR activity 5 with device number: 12
+12213, 1, IRET
+12214, 523, end of I/O 12: interrupt
+12736, 1, switch to kernel mode
+12737, 10, context saved
+12747, 1, find vector 2 in memory position 0X029C
+12748, 1, obtain ISR address
+12749, 24, call device driver
+12749, 100, ISR activity 1 with device number: 2
+12849, 1, IRET
+12850, 100, end of I/O 2: interrupt
+12949, 1, switch to kernel mode
+12950, 10, context saved
+12960, 1, find vector 2 in memory position 0X029C
+12961, 1, obtain ISR address
+12962, 24, call device driver
+12962, 100, ISR activity 1 with device number: 2
+13062, 1, IRET
+13063, 100, end of I/O 2: interrupt
+13162, 1, switch to kernel mode
+13163, 10, context saved
+13173, 1, find vector 15 in memory position 0X0165
+13174, 1, obtain ISR address
+13175, 24, call device driver
+13175, 120, ISR activity 1 with device number: 15
+13295, 120, ISR activity 2 with device number: 15
+13415, 120, ISR activity 3 with device number: 15
+13535, 96, ISR activity 4 with device number: 15
+13631, 1, IRET
+13632, 456, end of I/O 15: interrupt
+14087, 1, switch to kernel mode
+14088, 10, context saved
+14098, 1, find vector 4 in memory position 0X042B
+14099, 1, obtain ISR address
+14100, 24, call device driver
+14100, 120, ISR activity 1 with device number: 4
+14220, 120, ISR activity 2 with device number: 4
+14340, 60, ISR activity 3 with device number: 4
+14400, 1, IRET
+14401, 300, end of I/O 4: interrupt
+14700, 1, switch to kernel mode
+14701, 10, context saved
+14711, 1, find vector 18 in memory position 0X05B3
+14712, 1, obtain ISR address
+14713, 24, call device driver
+14713, 120, ISR activity 1 with device number: 18
+14833, 115, ISR activity 2 with device number: 18
+14948, 1, IRET
+14949, 235, end of I/O 18: interrupt
+15183, 1, switch to kernel mode
+15184, 10, context saved
+15194, 1, find vector 15 in memory position 0X0165
+15195, 1, obtain ISR address
+15196, 24, call device driver
+15196, 120, ISR activity 1 with device number: 15
+15316, 120, ISR activity 2 with device number: 15
+15436, 120, ISR activity 3 with device number: 15
+15556, 96, ISR activity 4 with device number: 15
+15652, 1, IRET
+15653, 456, end of I/O 15: interrupt
+16108, 1, switch to kernel mode
+16109, 10, context saved
+16119, 1, find vector 16 in memory position 0X0584
+16120, 1, obtain ISR address
+16121, 24, call device driver
+16121, 68, ISR activity 1 with device number: 16
+16189, 1, IRET
+16190, 68, end of I/O 16: interrupt
+16257, 1, switch to kernel mode
+16258, 10, context saved
+16268, 1, find vector 18 in memory position 0X05B3
+16269, 1, obtain ISR address
+16270, 24, call device driver
+16270, 120, ISR activity 1 with device number: 18
+16390, 115, ISR activity 2 with device number: 18
+16505, 1, IRET
+16506, 235, end of I/O 18: interrupt
+16740, 1, switch to kernel mode
+16741, 10, context saved
+16751, 1, find vector 20 in memory position 0X0765
+16752, 1, obtain ISR address
+16753, 24, call device driver
+16753, 120, ISR activity 1 with device number: 20
+16873, 120, ISR activity 2 with device number: 20
+16993, 120, ISR activity 3 with device number: 20
+17113, 120, ISR activity 4 with device number: 20
+17233, 120, ISR activity 5 with device number: 20
+17353, 52, ISR activity 6 with device number: 20
+17405, 1, IRET
+17406, 652, end of I/O 20: interrupt
+18057, 1, switch to kernel mode
+18058, 10, context saved
+18068, 1, find vector 9 in memory position 0X06EF
+18069, 1, obtain ISR address
+18070, 24, call device driver
+18070, 120, ISR activity 1 with device number: 9
+18190, 120, ISR activity 2 with device number: 9
+18310, 120, ISR activity 3 with device number: 9
+18430, 120, ISR activity 4 with device number: 9
+18550, 120, ISR activity 5 with device number: 9
+18670, 120, ISR activity 6 with device number: 9
+18790, 120, ISR activity 7 with device number: 9
+18910, 120, ISR activity 8 with device number: 9
+19030, 40, ISR activity 9 with device number: 9
+19070, 1, IRET
+19071, 1000, end of I/O 9: interrupt
+20070, 1, switch to kernel mode
+20071, 10, context saved
+20081, 1, find vector 5 in memory position 0X0292
+20082, 1, obtain ISR address
+20083, 24, call device driver
+20083, 120, ISR activity 1 with device number: 5
+20203, 120, ISR activity 2 with device number: 5
+20323, 10, ISR activity 3 with device number: 5
+20333, 1, IRET
+20334, 250, end of I/O 5: interrupt
+20583, 1, switch to kernel mode
+20584, 10, context saved
+20594, 1, find vector 14 in memory position 0X06C7
+20595, 1, obtain ISR address
+20596, 24, call device driver
+20596, 120, ISR activity 1 with device number: 14
+20716, 120, ISR activity 2 with device number: 14
+20836, 120, ISR activity 3 with device number: 14
+20956, 120, ISR activity 4 with device number: 14
+21076, 120, ISR activity 5 with device number: 14
+21196, 36, ISR activity 6 with device number: 14
+21232, 1, IRET
+21233, 636, end of I/O 14: interrupt
+21868, 1, switch to kernel mode
+21869, 10, context saved
+21879, 1, find vector 21 in memory position 0X07B7
+21880, 1, obtain ISR address
+21881, 24, call device driver
+21881, 1, IRET
+21882, 0, end of I/O 21: interrupt
+21881, 1, switch to kernel mode
+21882, 10, context saved
+21892, 1, find vector 7 in memory position 0X0639
+21893, 1, obtain ISR address
+21894, 24, call device driver
+21894, 120, ISR activity 1 with device number: 7
+22014, 120, ISR activity 2 with device number: 7
+22134, 25, ISR activity 3 with device number: 7
+22159, 1, IRET
+22160, 265, end of I/O 7: interrupt
+22424, 1, switch to kernel mode
+22425, 10, context saved
+22435, 1, find vector 5 in memory position 0X0292
+22436, 1, obtain ISR address
+22437, 24, call device driver
+22437, 120, ISR activity 1 with device number: 5
+22557, 120, ISR activity 2 with device number: 5
+22677, 10, ISR activity 3 with device number: 5
+22687, 1, IRET
+22688, 250, end of I/O 5: interrupt
+22937, 1, switch to kernel mode
+22938, 10, context saved
+22948, 1, find vector 6 in memory position 0X048B
+22949, 1, obtain ISR address
+22950, 24, call device driver
+22950, 120, ISR activity 1 with device number: 6
+23070, 91, ISR activity 2 with device number: 6
+23161, 1, IRET
+23162, 211, end of I/O 6: interrupt
+23372, 1, switch to kernel mode
+23373, 10, context saved
+23383, 1, find vector 16 in memory position 0X0584
+23384, 1, obtain ISR address
+23385, 24, call device driver
+23385, 68, ISR activity 1 with device number: 16
+23453, 1, IRET
+23454, 68, end of I/O 16: interrupt
+23521, 1, switch to kernel mode
+23522, 10, context saved
+23532, 1, find vector 5 in memory position 0X0292
+23533, 1, obtain ISR address
+23534, 24, call device driver
+23534, 120, ISR activity 1 with device number: 5
+23654, 120, ISR activity 2 with device number: 5
+23774, 10, ISR activity 3 with device number: 5
+23784, 1, IRET
+23785, 250, end of I/O 5: interrupt
+24034, 1, switch to kernel mode
+24035, 10, context saved
+24045, 1, find vector 6 in memory position 0X048B
+24046, 1, obtain ISR address
+24047, 24, call device driver
+24047, 120, ISR activity 1 with device number: 6
+24167, 91, ISR activity 2 with device number: 6
+24258, 1, IRET
+24259, 211, end of I/O 6: interrupt

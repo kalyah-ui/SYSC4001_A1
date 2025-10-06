@@ -1,7 +1,7 @@
 /**
  *
  * @file interrupts.cpp
- * @author Sasisekhar Govind
+ * @author Sasisekhar Govind, Sarah Andrew, Kalyah Mckez
  *
  */
 
@@ -56,7 +56,7 @@ int main(int argc, char** argv) {
                 remaining -= block;
                 activity_num++;
             }
-
+        
             execution += std::to_string(current_time) + ", 1, IRET\n";
             execution += std::to_string(current_time + 1) + ", " + std::to_string(duration)
                         + ", end of I/O " + std::to_string(device_number + 1) + ": interrupt\n";
